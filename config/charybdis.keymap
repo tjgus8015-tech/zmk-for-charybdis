@@ -3,6 +3,8 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#define MOVE_X 0
+#define MOVE_Y 1
 
 &lt {
     tapping-term-ms = <200>;
