@@ -19,7 +19,6 @@
         layer2 {
             bindings = <&tog 2>;
             key-positions = <49 55>;
-            require-prior-idle-ms = <150>;
         };
     };
 
