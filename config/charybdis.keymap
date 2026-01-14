@@ -54,12 +54,12 @@
 
         layer_2 {
             bindings = <
-&trans     &trans     &trans         &trans      &trans          &trans    &trans     &trans     &trans     &trans      &trans  &trans
-&kp LC(S)  &kp Q      &kp W          &kp C       &kp V           &trans    &kp PLUS   &kp MINUS  &trans     &trans      &trans  &kp LEFT_BRACKET
-&kp LC(M)  &kp LC(A)  &kp LC(LS(Z))  &kp DELETE  &kp LS(DELETE)  &trans    &trans     &trans     &trans     &trans      &trans  &kp RIGHT_BRACKET
-&trans     &kp LC(Z)  &kp LC(X)      &kp LC(C)   &kp LC(V)       &trans    &trans     &trans     &kp COMMA  &kp PERIOD  &trans  &trans
-                                     &trans      &trans          &trans    &trans     &to 0
-                                                 &trans          &trans    &kp ENTER
+&trans  &trans     &trans         &trans      &trans          &trans    &trans     &trans     &trans     &trans      &trans     &trans
+&trans  &trans     &trans         &kp LC(C)   &kp LC(V)       &trans    &kp PLUS   &kp MINUS  &trans     &trans      &trans     &kp LEFT_BRACKET
+&trans  &kp LC(A)  &kp LC(LS(Z))  &kp DELETE  &kp LS(DELETE)  &trans    &trans     &trans     &trans     &trans      &trans     &kp RIGHT_BRACKET
+&trans  &kp LC(Z)  &kp LC(X)      &trans      &trans          &trans    &trans     &trans     &kp COMMA  &kp PERIOD  &kp LC(M)  &kp LC(S)
+                                  &trans      &trans          &trans    &trans     &to 0
+                                              &trans          &trans    &kp ENTER
             >;
         };
 
