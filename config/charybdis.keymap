@@ -44,7 +44,7 @@
 &kp F1          &kp F2             &kp F3  &kp F4  &kp F5  &kp F6          &kp F7     &kp F8       &kp F9            &kp F10            &kp F11    &kp F12
 &kp CAPS        &kp C_VOLUME_UP    &trans  &trans  &trans  &bt BT_SEL 0    &none      &kp PAGE_UP  &kp UP            &kp PAGE_DOWN      &none      &kp PLUS
 &kp LEFT_SHIFT  &kp C_VOLUME_DOWN  &trans  &trans  &trans  &bt BT_SEL 1    &kp HOME   &kp LEFT     &kp DOWN          &kp RIGHT          &kp END    &none
-&kp LCTRL       &kp DEL            &trans  &trans  &trans  &bt BT_CLR      &kp LT     &kp GT       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH  &kp EQUAL
+&kp LCTRL       &trans             &trans  &trans  &trans  &bt BT_CLR      &kp LT     &kp GT       &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp SLASH  &kp EQUAL
                                            &trans  &trans  &trans          &mkp MB1   &mkp MB2
                                                    &trans  &trans          &kp ENTER
             >;
